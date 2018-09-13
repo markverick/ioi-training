@@ -1,2 +1,54 @@
 # ioi-training
-Sourcecodes written during practice for ioi. 
+Sourcecodes written during practice for IOI, focused on speed and efficiency. Codes might be formatted poorly.
+
+Topics
+- Sorting
+- Binary Tree
+- Heap, Priority Queue
+- Recurrence Relations
+- Complexity Analysis
+- Combinatorics
+- Lists, Stacks, and Queue
+- Searching: Binary Search and Hashing
+- Graph Algorithm
+- Math Induction
+- Dynamic Programming
+- Shortest Path Algorithms
+ - Dijkstra's
+ - Bellman Ford's
+ - Floyd Warshall's All-pair-shortest-path
+- Divide & Conquer
+- Fenwick Trees (1,2-Dimensional)
+- Interval Trees
+ - Advanced Queries with Lazy Propagation
+ - Persistent Segment Trees
+- Computational Theory
+- Probability Theory
+- Randomized Algorithm
+- Machine Learning
+- Greedy Algorithm
+- Minimum Spanning Trees
+- Game Theory
+- Advanced Data Structures
+- Balanced Binary Search Tree
+ - AVL Tree
+ - Splay Tree
+ - Red-Black Tree (use library)
+ - Treaps (my favorite)
+- Graph Theory
+- String Algorithm
+ - String Matching Algorithms eg. KMP, Boyer-Moore, Rabin-Karp
+ - Suffix Tree/Trie/Array
+- Amortized Analysis
+- Coding Theory
+- Data Encryption
+- Persistent Data Structures
+- Evolutionary Computing
+- Maximum Flows
+ - Min-Cost Maximum Flow
+- Linear Algebra
+- Advanced Dynamic Programming
+ - Dynamic Programming Optimizations
+- NP-Completeness
+- Centroid Decomposition
+- Heavy-Light Decomposition
