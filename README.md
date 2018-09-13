@@ -14,14 +14,14 @@ Topics
 - Math Induction
 - Dynamic Programming
 - Shortest Path Algorithms
- - Dijkstra's
- - Bellman Ford's
- - Floyd Warshall's All-pair-shortest-path
+   - Dijkstra's
+   - Bellman Ford's
+   - Floyd Warshall's All-pair-shortest-path
 - Divide & Conquer
 - Fenwick Trees (1,2-Dimensional)
 - Interval Trees
- - Advanced Queries with Lazy Propagation
- - Persistent Segment Trees
+   - Advanced Queries with Lazy Propagation
+   - Persistent Segment Trees
 - Computational Theory
 - Probability Theory
 - Randomized Algorithm
@@ -31,24 +31,24 @@ Topics
 - Game Theory
 - Advanced Data Structures
 - Balanced Binary Search Tree
- - AVL Tree
- - Splay Tree
- - Red-Black Tree (use library)
- - Treaps (my favorite)
+   - AVL Tree
+   - Splay Tree
+   - Red-Black Tree (use library)
+   - Treaps (my favorite)
 - Graph Theory
 - String Algorithm
- - String Matching Algorithms eg. KMP, Boyer-Moore, Rabin-Karp
- - Suffix Tree/Trie/Array
+   - String Matching Algorithms eg. KMP, Boyer-Moore, Rabin-Karp
+   - Suffix Tree/Trie/Array
 - Amortized Analysis
 - Coding Theory
 - Data Encryption
 - Persistent Data Structures
 - Evolutionary Computing
 - Maximum Flows
- - Min-Cost Maximum Flow
+   - Min-Cost Maximum Flow
 - Linear Algebra
 - Advanced Dynamic Programming
- - Dynamic Programming Optimizations
+   - Dynamic Programming Optimizations
 - NP-Completeness
 - Centroid Decomposition
 - Heavy-Light Decomposition
