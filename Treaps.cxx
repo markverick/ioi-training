@@ -1,0 +1,73 @@
+#include<bits/stdc++.h>
+#define MI 1000000000
+#define X first
+#define Y second
+#define MP make_pair
+#define MT make_tuple
+#define EB emplace_back
+using namespace std;
+
+typedef class node
+{
+public:
+	node *l,*r;
+	int val,prior,size;
+	node(const int v)
+	{
+		val=v;prior=rand()*(1<<15)+rand();size=1;l=NULL;r=NULL;
+	}
+}node;
+typedef node *pnode;
+pnode init(int v)
+{
+	return new node(v);
+}
+int sze(pnode t)
+{
+	return t?t->size:0;
+}
+void upz(pnode t)
+{
+	t->size=sze(t->l)+sze(t->r)+1;
+}
+void split(pnode t,pnode &l,pnode &r,int key)
+{
+	if(!t)l=r=NULL;
+	else if(t->val<=key) split(t->r,t->r,r,key),l=t;
+	else split(t->l,l,t->l,key),r=t;
+	upz(t);
+}
+void merge(pnode &t,pnode l,pnode r)
+{
+	if(!l)t=r;
+	else if(!r)t=l;
+	else if(l->prior>r->prior) merge(l->r,l->r,r),t=l;
+	else merge(r->l,l,r->l),t=r;
+	upz(t);
+}
+void insert(pnode &t,int key) 
+{
+	pnode l,r,md,it=new node(key);
+	split(t,l,r,key);
+	split(l,l,md,key-1);
+	if(!md) ///not multiset
+	{
+		merge(t,l,it);
+		merge(t,t,r);
+	}
+}
+void erase(pnode &t,int key)
+{
+	pnode l,r,md;
+	split(t,l,r,key);
+	split(l,l,md,key-1);
+	if(md) delete md;
+	merge(t,l,r);
+}
+int main()
+{
+	srand(135);
+	//freopen("out.txt","w",stdout);
+	//freopen("in.txt","r",stdin);
+	
+}
